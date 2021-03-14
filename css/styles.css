@@ -12,9 +12,20 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.header-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 address {
@@ -51,6 +62,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  background: var(--team-bg-color);
   cursor: pointer;
 }
 
@@ -126,8 +138,8 @@ address {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  /* letter-spacing: 0.03em; */
-  /* color: var(--title-color); */
+  letter-spacing: 0.03em;
+  color: var(--title-color);
 }
 
 .team-member-function {
